@@ -2,9 +2,25 @@ import Portfolio from './img/Portfolio.png'
 import Internship from './img/Internship.png'
 import Frontend from './img/Frontend.png'
 import Stream from './img/Stream.png'
-
+import remotework from './img/remotework.png'
+import designwork from './img/designwork.png'
 
 const ProjectData = [
+  {
+    title: 'My Latest Project',
+    desc: 'This is my Latest Gatsby Project that I have done.',
+    link: 'http://remotecreativework.com/',
+    src: remotework,
+    animate: 'fade-right',
+  },
+
+  {
+    title: 'My Project in OURFIRE',
+    desc: 'This demonstrate my responsive design skill',
+    link: 'http://www.cariaggi.com/en/',
+    src: designwork,
+    animate: 'fade-left',
+  },
   {
     title: 'My React Project',
     desc: 'This is my React Project that I am working.',
