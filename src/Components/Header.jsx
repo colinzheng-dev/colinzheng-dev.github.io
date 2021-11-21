@@ -78,15 +78,15 @@ const Home = () => {
         <div id="Container">
           <div id="HeaderContentWrapper">
             <div id="HeaderDesc" data-aos="fade-right">
-              <h1>Developer Colin</h1>
+              <h1>Developer Frank</h1>
               <p>Web Developer</p>
 
               <h3
                 className="typewrite"
                 data-period="2000"
-                data-type='[ "Hi, I am Colin.", "I will Do web development", "I love coding", "I love creating new stuffs"]'
+                data-type='[ "Hi, I am Frank.", "I will Do web development", "I love coding", "I love creating new stuffs"]'
               >
-                <span className="wrap">Hi I am Colin Zheng</span>
+                <span className="wrap">Hi I am Frank Acosta</span>
               </h3>
 
               <Link to="/contact">Contact</Link>

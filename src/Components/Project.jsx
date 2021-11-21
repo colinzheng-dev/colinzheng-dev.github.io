@@ -7,7 +7,7 @@ import GitHubIcon from '@material-ui/icons/GitHub'
 const Project = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = ' DevR - Projects '
+    document.title = ' DevF - Projects '
   }, [])
   const SingleProject = (prop) => {
     return (

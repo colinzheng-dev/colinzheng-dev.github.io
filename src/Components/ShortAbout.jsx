@@ -13,18 +13,27 @@ const ShortAbout = () => {
             <div id="AboutDesc" data-aos="fade-up">
               <h2>Few Words About Me</h2>
               <p>
-                Hi there, Hope you are doing well. I am Ratul. I am a Full stack
-                web developer. I love developing web and mobile applications. I
-                have more than {myExperience} years of experinece as a web
-                developer. I have Designed and Developed many websites,
-                applications and some super simple games.
+                I am a Passionate senior Frontend Engineer with over {myExperience} years of experience
+                designing, building, deploying, and managing mission-critical internet scale platforms
+                for both consumer and enterprise Software as a Service (SaaS) applications.
+                I have experience building startups with decentralized remote teams,
+                agile engineering practices, cloud-based infrastructure and collaborative
+                open-source culture.
               </p>
               <p>
-                I love coding soo much and I take it as a passion. And I really
-                love my passion. I have never felt frustrated or boring when I
-                am coding. Coding makes me happy. I love to learn new things and
-                I always try to keep my skills updated. My favourite language is
-                Javascript.
+                As a Frontend Engineer, I contributed toward a collection of web applications
+                living in React.js (Gatsby), Express.js and similar technologies.
+                I collaborated with clients, designers, strategists,
+                and a UX l to define requirements, solve architectural challenges, guide fellow developers,
+                and develop solutions in light of the growing applications and projects.
+              </p>
+              <p>
+                I have a pretty much nice skill on Javascript Frameworks/libraray such as
+                Next.Js, Nuxt.Js, React.Js, and Vue Js. Most of my projects are done with React.Js.
+                I am also good in NodeJs, MongoDB, express, Sass, Redux and More.
+                I am working on an Akvelon company developping MERN stack project.
+                Now I am seeking to leverage my technical and professional expertise in computer science
+                to improve my career and achieve my goals.
               </p>
               <Link to="/about">Read My Experiences</Link>
             </div>

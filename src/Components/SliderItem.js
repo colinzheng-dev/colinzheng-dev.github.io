@@ -4,7 +4,7 @@ const SliderItem = (prop) => {
   return (
     <>
       <div className="singleSliderItem">
-        <img src={prop.background} alt="Developer Ratul - devR slider nature" />
+        <img src={prop.background} alt="Developer Ratul - DevF slider nature" />
         <div className="sliderDesc">
           <h2>{prop.title}</h2>
           <p>{prop.desc}</p>

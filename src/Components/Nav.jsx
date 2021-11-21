@@ -14,7 +14,7 @@ const Nav = () => {
         {/* <div id="Container"> */}
         <div id="NavContentWrapper">
           <h2 id="NavTitle">
-            <Link to="/">DevC</Link>
+            <Link to="/">DevF</Link>
           </h2>
           <ul id="NavLink">
             <li>

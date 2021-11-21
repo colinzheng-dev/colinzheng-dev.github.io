@@ -12,7 +12,7 @@ const Footer = () => {
               <ol>
                 <li>
                   <a
-                    href="https://github.com/colinzheng-dev"
+                    href="https://github.com/talent-webdev"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -111,7 +111,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fas fa-fan"></i> Designed by - MR Colin
+                    <i className="fas fa-fan"></i> Designed by - MR Frank
                   </a>
                 </li>
                 <li>
@@ -120,7 +120,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <i className="fas fa-fan"></i> Content by - MR Colin
+                    <i className="fas fa-fan"></i> Content by - MR Frank
                   </a>
                 </li>
               </ol>
@@ -202,7 +202,7 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <footer>Copyright &copy; @ DevR - {year} - All rights</footer>
+      <footer>Copyright &copy; @ DevF - {year} - All rights</footer>
     </>
   )
 }

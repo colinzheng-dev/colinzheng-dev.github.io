@@ -8,7 +8,7 @@ const Skills = () => {
   const [data, setData] = useState()
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = ' DevC - Skills '
+    document.title = ' DevF - Skills '
   }, [])
   const Filter = (val) => {
     setData(val.target.value)
@@ -61,17 +61,17 @@ const Skills = () => {
           <div id="SkillPageContentWrapper">
             {data === 'front-end'
               ? frontEnd.map((data, index) => {
-                  return (
-                    <SingleSkill
-                      key={index}
-                      title={data.title}
-                      desc={data.desc}
-                      src={data.src}
-                    />
-                  )
-                })
+                return (
+                  <SingleSkill
+                    key={index}
+                    title={data.title}
+                    desc={data.desc}
+                    src={data.src}
+                  />
+                )
+              })
               : data === 'back-end'
-              ? backEnd.map((data, index) => {
+                ? backEnd.map((data, index) => {
                   return (
                     <SingleSkill
                       key={index}
@@ -81,38 +81,38 @@ const Skills = () => {
                     />
                   )
                 })
-              : data === 'data-base'
-              ? dataBase.map((data, index) => {
-                  return (
-                    <SingleSkill
-                      key={index}
-                      title={data.title}
-                      desc={data.desc}
-                      src={data.src}
-                    />
-                  )
-                })
-              : data === 'essential'
-              ? essential.map((data, index) => {
-                  return (
-                    <SingleSkill
-                      key={index}
-                      title={data.title}
-                      desc={data.desc}
-                      src={data.src}
-                    />
-                  )
-                })
-              : SkillData.map((data, index) => {
-                  return (
-                    <SingleSkill
-                      key={index}
-                      title={data.title}
-                      desc={data.desc}
-                      src={data.src}
-                    />
-                  )
-                })}
+                : data === 'data-base'
+                  ? dataBase.map((data, index) => {
+                    return (
+                      <SingleSkill
+                        key={index}
+                        title={data.title}
+                        desc={data.desc}
+                        src={data.src}
+                      />
+                    )
+                  })
+                  : data === 'essential'
+                    ? essential.map((data, index) => {
+                      return (
+                        <SingleSkill
+                          key={index}
+                          title={data.title}
+                          desc={data.desc}
+                          src={data.src}
+                        />
+                      )
+                    })
+                    : SkillData.map((data, index) => {
+                      return (
+                        <SingleSkill
+                          key={index}
+                          title={data.title}
+                          desc={data.desc}
+                          src={data.src}
+                        />
+                      )
+                    })}
           </div>
         </div>
       </section>

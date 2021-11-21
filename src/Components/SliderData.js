@@ -4,18 +4,18 @@ import slider3 from "./img/slider3.jpg";
 
 const SliderData = [
   {
-    title: "Hi I am Colin I am a Senior Full-Stack Developer",
-    desc: "DevC . Owner",
+    title: "Hi I am a Senior Front end Developer",
+    desc: "DevF . Owner",
     background: slider3,
   },
   {
     title: "I am accepting freelance invoices.",
-    desc: "DevC . Owner",
+    desc: "DevF . Owner",
     background: slider2,
   },
   {
-    title: "I am currently developing my back-end skills.",
-    desc: "DevC . Owner",
+    title: "I am currently developing my front-end skills.",
+    desc: "DevF . Owner",
     background: slider1,
   },
 ];
